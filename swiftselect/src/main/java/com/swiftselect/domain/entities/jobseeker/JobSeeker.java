@@ -22,7 +22,9 @@ import java.util.Set;
 @Builder
 @Entity
 @Table(name = "job_seeker")
-public class JobSeeker extends Person {
+public class
+
+JobSeeker extends Person {
     @Enumerated(value = EnumType.STRING)
     private Gender gender;
 
